@@ -1,0 +1,84 @@
+body{
+
+    width: 1200px;
+    margin: auto;
+    
+}
+header{
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(77, 70, 59);    
+    
+}
+#head p{
+    display: inline-block;
+    margin-right: 60px;
+    margin-left: 15px;
+    padding-top: 10px;
+    font-size: large;
+    color: rgb(167, 167, 167);
+}
+
+#head img{
+
+    float: left;
+    display: inline;
+    width: 15%;
+    margin-top: 10px;
+    margin-left: 80px;
+    padding-bottom: 10px;
+}
+/* -------------------------------------- main */
+
+#logo img{
+    margin: 30px 80px;
+}
+#three img{
+    margin: 0px 0px 30px 27px;
+}
+#three img:nth-child(1){
+    margin-left: 80px;
+}
+main{
+    width: auto;
+}
+#last img{
+    margin-left: 80px;
+    float: left;
+    
+}
+#last h4{
+    width: 300px;
+    height: 40px;
+    display: inline-block;
+    font-size: 25px;
+    margin: 0px 0px 0px 30px;
+    float: left;
+    
+}
+#last P{
+    width: 450px;
+    margin-left: 30px;
+    height: 280px;
+    display: inline-block;
+    float: left;
+    overflow: auto;
+}
+button{
+
+    float: left;
+    padding: 8px 44px;
+    background:black;
+    color: white;
+    font-size: 18px;
+    margin-left: 26px;
+    margin-top: 7px;    
+}
+
+/* ------------------------------------------Fotter */
+
+footer{
+    background-color: rgb(77, 70, 59);  
+    height: 100px;
+    margin-top: 430px;
+}
