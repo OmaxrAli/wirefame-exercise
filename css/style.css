@@ -7,14 +7,15 @@ body{
 header{
     display: inline-block;
     width: 100%;
-    background-color: rgb(77, 70, 59);    
+    background-color: rgb(77, 70, 59);  
+    height: 80px;  
     
 }
 #head p{
     display: inline-block;
-    margin-right: 60px;
+    margin-right: 90px;
     margin-left: 15px;
-    padding-top: 10px;
+    padding-top: 30px;
     font-size: large;
     color: rgb(167, 167, 167);
 }
@@ -74,11 +75,14 @@ button{
     margin-left: 26px;
     margin-top: 7px;    
 }
+main{
+    margin-bottom: 430px;
+}
 
 /* ------------------------------------------Fotter */
 
 footer{
     background-color: rgb(77, 70, 59);  
     height: 100px;
-    margin-top: 430px;
+   
 }
